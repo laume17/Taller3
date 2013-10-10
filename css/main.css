@@ -1,0 +1,134 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body{
+background: #772958;
+
+}
+
+#tittle{
+
+ padding: -100px;
+ margin-top: -60px;
+ margin-left: 5px;
+ color: #FB8960;
+
+
+}
+
+@font-face{
+	font-family: "laura";
+  src: url("../fonts/UltraCondensedSansSerif.ttf");
+  
+}
+
+h1, h3, h4{
+	font-family: "laura";
+}
+
+a {
+	font-family: "laura";
+	color: #FB8861;
+}
+
+.navStyle{
+	background: #B33356 !important;
+	border: none !important;
+	border-radius: 0 !important;
+	margin-bottom: 0px;
+
+}
+.navStyle a {
+	color: #772958 !important;
+}
+.navbar .navbar-nav>.active>a {
+	background: #B04B6E !important;
+}
+
+.tag{
+	width: 30%;
+	
+	display: inline-block;
+	margin: 0 1.25%;
+	text-align: center;
+}
+
+.item{
+	height: 200px;
+}
+
+.item img{
+	margin: auto;
+}
+
+.move{
+	background-image: url("../img/lines.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #67B7E3;
+	width: 100%;
+	
+
+
+
+}
+
+.bear{
+width: 27%;
+}
+
+
+.text{
+	
+	width: 100%;
+
+}
+
+.text h4{
+	width: 100%;
+	
+	color: #67B7E3;
+}
+
+
+
+@media screen and (max-width: 500px) { /* Pantallas de menos de 500px */
+
+	.item{
+		height: 200px;
+	}
+
+
+
+	.bear img{
+		width: 60%;
+	}
+
+	
+}
+
+
+@media screen and (min-width: 500px) { /* Pantallas de mas de 500px */
+
+	.item{
+		height: 300px;
+	}
+
+	
+	.move{
+		margin-bottom: 20px;
+	}
+
+
+}
+
+
+
+
+
+
+
